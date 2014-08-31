@@ -1,0 +1,16 @@
+Some thoughts:
+
+CherryPy: 
+- hosts some big services in areas I'm interested in (Hulu, Netflix, CherryMusic)
+- oldest framework
+
+Flask:
+- well written docs
+- info on security
+
+WebPy:
+- Looks like it has a lot of good code samples
+- very pythonic - do I even care?
+
+Bottle:
+- might be too small? They think so.

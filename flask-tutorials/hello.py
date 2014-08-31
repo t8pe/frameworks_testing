@@ -6,4 +6,5 @@ def hello():
     return "Hello World, this here is Flask!"
 
 if __name__ == "__main__":
+    app.debug = True
     app.run()
