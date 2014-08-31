@@ -10,7 +10,7 @@ CherryPy:
 http://docs.cherrypy.org/en/latest/tutorials.html
 - hosts some big services in areas I'm interested in (Hulu, Netflix, CherryMusic)
 - oldest framework
-
+- went through and did all the tutorials. They degraded in quality as it went. Something about cherrypy just irritates me.
 Flask:
 http://flask.pocoo.org/docs/0.10/tutorial/
 - well written docs
