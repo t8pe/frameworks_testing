@@ -1,0 +1,18 @@
+from bottle import route, run, template, redirect
+
+@route('/hello/<name>')
+def index(name):
+    return template('<i>Hello {{name}}</i>!', name=name)
+
+@route('/goodbye/<name>')
+def index(name):
+    if name:
+        return template("Goodbye {{name}}, I didn't like you anyway!", name=name)
+    else:
+        return template("Oh fine then.")
+
+@route('/wrong')
+def wrong():
+    redirect('hello/fuckwit')
+
+run(host='localhost', port=5000, debug=True)
