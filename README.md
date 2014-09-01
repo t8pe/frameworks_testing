@@ -21,7 +21,9 @@ WebPy:
 http://webpy.org/docs/0.3/tutorial
 - Looks like it has a lot of good code samples
 - very pythonic - do I even care?
-- it would be *really nice* if it would run its webserver. Until that time, this gets booted to the bottom of the pile!
+- Managed to get a basic app to run, so that's a plus. Not that it did
+  anything.
+- can't ask the author for help on account of being dead.
 
 Bottle:
 http://bottlepy.org/docs/dev/tutorial.html
